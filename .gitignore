@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+.data/
+.copilotkit/artifacts/
+dist/
+*.log

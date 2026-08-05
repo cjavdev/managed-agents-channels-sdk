@@ -1,0 +1,6 @@
+name: channels-slack
+description: Cloud sandbox for the Slack channel assistant (CopilotKit Channels bridge)
+config:
+  type: cloud
+  networking:
+    type: unrestricted

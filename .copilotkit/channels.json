@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "channels": [
+    {
+      "name": "cma-assistant",
+      "displayName": "CMA Assistant",
+      "providers": {
+        "slack": {
+          "env": {
+            "botToken": "INTELLIGENCE_CHANNEL_CMA_ASSISTANT_SLACK_BOT_TOKEN",
+            "signingSecret": "INTELLIGENCE_CHANNEL_CMA_ASSISTANT_SLACK_SIGNING_SECRET"
+          }
+        }
+      }
+    }
+  ]
+}
