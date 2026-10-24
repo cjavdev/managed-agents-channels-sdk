@@ -15,17 +15,22 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@ag-ui/client": "^0.0.57",
-    "@ag-ui/core": "^0.0.57",
-    "@anthropic-ai/sdk": "^0.115.0",
-    "@copilotkit/channels": "^0.7.3",
-    "@copilotkit/runtime": "^1.66.2",
-    "dotenv": "^17.4.2",
-    "rxjs": "^7.8.1"
+    "@ag-ui/client": "^1.0.3",
+    "@ag-ui/core": "^1.0.3",
+    "@anthropic-ai/sdk": "^1.2.0",
+    "@copilotkit/channels": "^0.11.1",
+    "@copilotkit/runtime": "^1.79.1",
+    "dotenv": "^18.0.9",
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
-    "tsx": "^4.23.7",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
+  },
+  "overrides": {
+    "@ag-ui/client": "$@ag-ui/client",
+    "@ag-ui/core": "$@ag-ui/core",
+    "rxjs": "$rxjs"
   }
 }
